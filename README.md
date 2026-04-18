@@ -19,6 +19,11 @@ The workflow includes:
 
 *   forecasting Bristol's population for 2025 and 2026
 
+*   # Imports and data setup
+
+This section imports the main Python libraries used in the notebook. `pandas` is used for handling table-like data, `numpy` supports numerical operations, `matplotlib` is used for visualization, and `scikit-learn` provides the regression and machine-learning models used for prediction.
+
+
 
 
 
