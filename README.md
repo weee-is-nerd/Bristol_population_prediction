@@ -88,5 +88,81 @@ Here is the **Methodology rewritten with clear lists** (simple and clean):
 
 * Model used for final population prediction
 
+Here is a **clean, simple, and report-ready section** covering everything you asked:
 
+---
+
+## **Results**
+
+* The models were successfully trained and tested using historical data
+* Linear Regression achieved the best performance with the lowest RMSE
+* Linear Regression has
+  * RMSE = 1.164
+* The model predicted:
+
+  * **2025:** = 499,136
+  * **2026:** = 503,874
+* Results show a continued increase in population
+
+---
+
+## **Key Findings**
+
+* Bristol’s population shows a steady upward trend
+* Births are generally higher than deaths, supporting natural growth
+* Migration varies each year and affects population changes
+* Lag features (previous population) strongly improve prediction accuracy
+* Simple models performed better due to the small dataset
+
+---
+
+## **Visualisations**
+
+* Population trend line graph (2011–2024)
+* Annual population change bar chart
+* Births vs deaths comparison graph
+* Migration trends (internal and international)
+* Actual vs predicted scatter plot
+* Residual plot
+* Final population forecast graph
+
+---
+
+## **Limitations**
+
+* Small dataset (only yearly data from 2011–2024)
+* Future values estimated using averages
+* No cross-validation used
+* Results may not generalise well to real-world scenarios
+
+---
+
+## **Future Work**
+
+* Use a larger and more detailed dataset
+* Include more variables (e.g., economic or housing data)
+* Apply advanced models such as time-series methods (ARIMA, LSTM)
+* Improve model validation techniques
+
+---
+
+## **Technologies Used**
+
+* Python
+* Pandas (data handling)
+* NumPy (numerical operations)
+* Matplotlib (visualisation)
+* Scikit-learn (machine learning models)
+* Jupyter Notebook (development environment)
+
+---
+
+## **References**
+
+* Géron, A. (2022) *Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow*.
+* James, G. et al. (2021) *An Introduction to Statistical Learning*.
+* Kuhn, M. and Johnson, K. (2019) *Feature Engineering and Selection*.
+* Office for National Statistics (ONS) – Population data source
+
+---
 
