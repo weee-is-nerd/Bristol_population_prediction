@@ -100,8 +100,8 @@ Here is a **clean, simple, and report-ready section** covering everything you as
   * RMSE = 1.164
 * The model predicted:
 
-  * **2025:** = 499,136
-  * **2026:** = 503,874
+  * **2025:** ~ 499,136
+  * **2026:** ~ 503,874
 * Results show a continued increase in population
 
 ---
