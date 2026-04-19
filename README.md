@@ -32,4 +32,61 @@ The data was originally in a wide format, where each year was stored in separate
 
 Data integration involved selecting only the Bristol data from the full dataset and combining all relevant variables into one table. This final dataset was then used for analysis and prediction.
 
+Here is the **Methodology rewritten with clear lists** (simple and clean):
+
+---
+
+## **Methodology**
+
+### **Data Preprocessing**
+
+* Dataset obtained from the Office for National Statistics (ONS)
+* Missing values replaced with 0
+* Data converted from wide format to tidy format (one row per year)
+* Dataset prepared for analysis and modelling
+
+---
+
+### **Feature Engineering**
+
+* Created lag features:
+
+  * Population from previous year
+  * Population from two years ago
+* Created new feature:
+
+  * Population change (yearly difference)
+* These features help the model learn trends
+
+---
+
+### **Machine Learning Models**
+
+* Linear Regression
+
+* Ridge Regression
+
+* Lasso Regression
+
+* Random Forest
+
+* HistGradient Boosting
+
+* Models selected to compare simple and complex approaches
+
+---
+
+### **Model Evaluation**
+
+* Used evaluation metrics:
+
+  * MAE (Mean Absolute Error)
+  * RMSE (Root Mean Squared Error)
+  * R² Score
+
+* Best model selected based on lowest RMSE
+
+* Model used for final population prediction
+
+
 
